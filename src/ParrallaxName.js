@@ -47,10 +47,10 @@ function App() {
       >
         <Parallax
           class="bgImageMobile"
-          bgImage={require("../src/pewdiepie2.jpg")}
+          bgImage={require("../src/woods/2.png")}
         ></Parallax>
 
-        <Parallax class="bgImage" bgImage={require("../src/rjjj.jpg")}>
+        <Parallax class="bgImage" bgImage={require("../src/woods/4.png")}>
           <div style={{ opacity: "0%" }}>
             ddddddddd
             ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd

@@ -5,7 +5,7 @@ import AboutMe from "./AboutMe.js";
 import Projects from "./Projects.js";
 import ContactMe from "./ContactMe.js";
 import Footer from "./Footer.js";
-import Food from "./Food.js";
+//import Food from "./Food.js";
 
 import { Navbar, Nav } from "react-bootstrap";
 import scrollToComponent from "react-scroll-to-component";
@@ -117,6 +117,7 @@ class App extends React.Component {
                 >
                   Projects
                 </Nav.Link>
+                {/*
                 <Nav.Link
                   style={{ color: "white" }}
                   onClick={() =>
@@ -129,6 +130,7 @@ class App extends React.Component {
                 >
                   Food
                 </Nav.Link>
+                */}
                 <Nav.Link
                   style={{ color: "white" }}
                   onClick={() =>
@@ -183,6 +185,7 @@ class App extends React.Component {
             <Projects />
           </section>
 
+          {/*
           <section
             className="Food"
             ref={section => {
@@ -191,6 +194,7 @@ class App extends React.Component {
           >
             <Food />
           </section>
+          */}
 
           <section
             className="ContactMe"

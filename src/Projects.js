@@ -60,7 +60,7 @@ function App() {
               </div>
             </ScrollAnimation>
           </Col>
-
+          {/*
           <Col md={3}>
             <ScrollAnimation
               animateIn="fadeInDown"
@@ -252,6 +252,7 @@ function App() {
               </div>
             </ScrollAnimation>
           </Col>
+          */}
         </Row>
       </Container>
       <div className="blackOverlay">
