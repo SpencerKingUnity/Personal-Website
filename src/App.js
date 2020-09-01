@@ -143,6 +143,7 @@ class App extends React.Component {
                 >
                   Contact
                 </Nav.Link>
+                {/*
                 <Nav.Link
                   style={{ color: "white" }}
                   onClick={() => this.handleSearch()}
@@ -150,6 +151,7 @@ class App extends React.Component {
                   {" "}
                   Resume
                 </Nav.Link>
+                */}
               </Nav>
             </Navbar.Collapse>
           </Navbar>
